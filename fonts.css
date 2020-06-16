@@ -1,4 +1,11 @@
 @font-face {
   font-family: "Gotham Pro";
-  src: url("./fonts/Gotham Pro regular.ttf") format("opentype");
+  src: url("./fonts/GothamPro.woff") format("woff"),
+    url("./fonts/GothamPro.woff2") format("woff2"),
+    url("./fonts/GothamPro-Bold.woff") format("woff"),
+    url("./fonts/GothamPro-Bold.woff2") format("woff2");
+}
+
+.page {
+  font-family: "Gotham Pro", sans-serif;
 }
