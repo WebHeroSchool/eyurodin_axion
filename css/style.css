@@ -1,3 +1,522 @@
 .page {
     font-family: "Gotham Pro", sans-serif;
   }
+
+.page__header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  margin: 0 0 20px 0;
+  height: 110px;
+}
+
+.header__logo {
+  position: relative;
+  width: 80px;
+  height: 75px;
+  transition: transform 1s linear;
+}
+
+.header__logo:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.header__menu {
+  position: relative;
+  width: 1170px;
+  height: 35px;
+  align-self: center;
+  font-size: 15px;
+  line-height: 11px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+
+.menu__link {
+  color: black;
+  text-decoration: none;
+  align-self: center;
+  transition: text-decoration, font-size, letter-spacing 1s ease;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.menu__left {
+  position: absolute;
+  display: flex;
+  width: 500px;
+  height: 30px;
+  justify-content: space-around;
+  align-content: center;
+  left: 13px;
+  bottom: 21px;
+  margin-right: 20px;
+}
+
+.menu__right {
+  position: absolute;
+  display: flex;
+  width: 535px;
+  height: 30px;
+  justify-content: space-around;
+  align-content: center;
+  right: 0px;
+  bottom: 21px;
+}
+
+.menu__search {
+  width: 216px;
+  height: 18px;
+  border-bottom: 1px solid #000000;
+  align-self: flex-end;
+  cursor: text;
+  position: relative;
+}
+
+.search__img {
+  position: absolute;
+  right: 0%;
+  cursor: pointer;
+  width: 16px;
+  height: 17px;
+  bottom: 5px;
+  transition: transform 1s linear;
+}
+
+.search__img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.cart__count {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  color: white;
+  padding-top: 2px;
+  font-size: 12px;
+  text-align: center;
+  background: black;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  margin-right: 45px;
+}
+
+.menu__flag {
+  display: inline-block;
+  position: absolute;
+  width: 23px;
+  height: 17px;
+  cursor: pointer;
+  align-self: center;
+  right: 15px;
+  transition: transform 1s linear;
+}
+
+.menu__flag:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.new-collection__goto {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1230px;
+  margin: 0 auto 90px auto;
+}
+
+.new-collection__goto .goto__img {
+  width: 100%;
+}
+
+.new-collection__goto .goto__title {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: justify;
+  white-space: pre-line;
+  left: 63px;
+  align-self: center;
+  line-height: 1.2;
+}
+
+.goto__shop {
+  font-size: 15px;
+}
+
+.goto__arrow {
+  width: 70px;
+  cursor: pointer;
+  transition: transform 1s linear;
+}
+
+.goto__arrow:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.products__title {
+  font-size: 30px;
+  margin: 0 auto 15px auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.products__list {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 350px;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*rasta*/
+
+.products__product-rasta {
+  align-self: flex-start;
+  text-align: left;
+  position: relative;
+  width: 280px;
+  height: 340px;
+}
+
+.products__product-rasta::after {
+  content: "";
+  border-right: 1px solid #CCCCCC;
+  position: absolute;
+  width: 280px;
+  height: 130px;
+  top: 60px;
+}
+
+.product-rasta_g {
+  position: absolute;
+  display: inline-block;
+  right: 95px;
+  bottom: 20px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-rasta_g:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-rasta_b {
+  position: absolute;
+  display: inline-block;
+  right: 75px;
+  bottom: 20px;
+  background: #0E1211;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-rasta_b:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-rasta_r {
+  position: absolute;
+  display: inline-block;
+  right: 55px;
+  bottom: 20px;
+  background: #B62E3C;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-rasta_r:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-rasta_y {
+  position: absolute;
+  display: inline-block;
+  right: 35px;
+  bottom: 20px;
+  background: #FDB431;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-rasta_y:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/*camel*/
+
+.products__product-camel {
+  align-self: flex-start;
+  text-align: left;
+  position: relative;
+  width: 280px;
+  height: 340px;
+}
+
+.products__product-camel::after {
+  content: "";
+  border-right: 1px solid #CCCCCC;
+  position: absolute;
+  width: 280px;
+  height: 130px;
+  top: 60px;
+}
+
+.product-camel_g {
+  position: absolute;
+  display: inline-block;
+  right: 95px;
+  bottom: 20px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-camel_g:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-camel_o {
+  position: absolute;
+  display: inline-block;
+  right: 75px;
+  bottom: 20px;
+  background: #E29D69;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-camel_o:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-camel_r {
+  position: absolute;
+  display: inline-block;
+  right: 55px;
+  bottom: 20px;
+  background: #B62E3C;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-camel_r:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-camel_y {
+  position: absolute;
+  display: inline-block;
+  right: 35px;
+  bottom: 20px;
+  background: #FDB431;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-camel_y:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/*mandel*/
+
+.products__product-mandel {
+  align-self: flex-start;
+  text-align: left;
+  position: relative;
+  width: 280px;
+  height: 340px;
+}
+
+.products__product-mandel::after {
+  content: "";
+  border-right: 1px solid #CCCCCC;
+  position: absolute;
+  width: 280px;
+  height: 130px;
+  top: 60px;
+}
+
+.product-mandel_g {
+  position: absolute;
+  display: inline-block;
+  right: 95px;
+  bottom: 20px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-mandel_g:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-mandel_b {
+  position: absolute;
+  display: inline-block;
+  right: 75px;
+  bottom: 20px;
+  background: #762E31;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-mandel_b:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-mandel_bl {
+  position: absolute;
+  display: inline-block;
+  right: 55px;
+  bottom: 20px;
+  background: #41479B;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-mandel_bl:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-mandel_y {
+  position: absolute;
+  display: inline-block;
+  right: 35px;
+  bottom: 20px;
+  background: #FDB431;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-mandel_y:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/*cloud*/
+
+.products__product-cloud {
+  align-self: flex-start;
+  text-align: left;
+  position: relative;
+  width: 280px;
+  height: 340px;
+}
+
+.product-cloud_g {
+  position: absolute;
+  display: inline-block;
+  right: 95px;
+  bottom: 20px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-cloud_g:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-cloud_b {
+  position: absolute;
+  display: inline-block;
+  right: 75px;
+  bottom: 20px;
+  background: #257DA9;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-cloud_b:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-cloud_r {
+  position: absolute;
+  display: inline-block;
+  right: 55px;
+  bottom: 20px;
+  background: #B62E3C;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-cloud_r:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.product-cloud_y {
+  position: absolute;
+  display: inline-block;
+  right: 35px;
+  bottom: 20px;
+  background: #FDB431;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  transition: transform 1s linear;
+}
+
+.product-cloud_y:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.products__img {
+  display: block;
+  width: 230px;
+  height: 217px;
+  margin: 0 auto 60px auto;
+}
+
+.products__name {
+  font-size: 16px;
+  line-height: 11px;
+  margin-bottom: 0;
+}
+
+.products__cost {
+  font-size: 20px;
+  line-height: 13px;
+  font-weight: bold;
+}
