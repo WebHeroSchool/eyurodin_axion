@@ -67,14 +67,14 @@
   height: 30px;
   justify-content: space-around;
   align-content: center;
-  right: 0px;
+  right: 0;
   bottom: 21px;
 }
 
 .menu__search {
   width: 216px;
   height: 18px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #000;
   align-self: flex-end;
   cursor: text;
   position: relative;
@@ -82,7 +82,7 @@
 
 .search__img {
   position: absolute;
-  right: 0%;
+  right: 0;
   cursor: pointer;
   width: 16px;
   height: 17px;
@@ -103,7 +103,7 @@
   font-size: 12px;
   text-align: center;
   background: black;
-  border: 3px solid #000000;
+  border: 3px solid #000;
   border-radius: 50%;
   margin-right: 45px;
 }
@@ -179,7 +179,7 @@
   text-align: center;
 }
 
-/*rasta*/
+/* rasta */
 
 .products__product-rasta {
   align-self: flex-start;
@@ -191,7 +191,7 @@
 
 .products__product-rasta::after {
   content: "";
-  border-right: 1px solid #CCCCCC;
+  border-right: 1px solid #CCC;
   position: absolute;
   width: 280px;
   height: 130px;
@@ -203,7 +203,7 @@
   display: inline-block;
   right: 95px;
   bottom: 20px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -219,7 +219,7 @@
   display: inline-block;
   right: 75px;
   bottom: 20px;
-  background: #0E1211;
+  background: #0e1211;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -235,7 +235,7 @@
   display: inline-block;
   right: 55px;
   bottom: 20px;
-  background: #B62E3C;
+  background: #b62e3c;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -251,7 +251,7 @@
   display: inline-block;
   right: 35px;
   bottom: 20px;
-  background: #FDB431;
+  background: #fdb431;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -262,7 +262,7 @@
   transform: scale(1.2, 1.2);
 }
 
-/*camel*/
+/* camel */
 
 .products__product-camel {
   align-self: flex-start;
@@ -274,7 +274,7 @@
 
 .products__product-camel::after {
   content: "";
-  border-right: 1px solid #CCCCCC;
+  border-right: 1px solid #CCC;
   position: absolute;
   width: 280px;
   height: 130px;
@@ -286,7 +286,7 @@
   display: inline-block;
   right: 95px;
   bottom: 20px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -302,7 +302,7 @@
   display: inline-block;
   right: 75px;
   bottom: 20px;
-  background: #E29D69;
+  background: #e29d69;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -318,7 +318,7 @@
   display: inline-block;
   right: 55px;
   bottom: 20px;
-  background: #B62E3C;
+  background: #b62e3c;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -334,7 +334,7 @@
   display: inline-block;
   right: 35px;
   bottom: 20px;
-  background: #FDB431;
+  background: #fdb431;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -345,7 +345,7 @@
   transform: scale(1.2, 1.2);
 }
 
-/*mandel*/
+/* mandel */
 
 .products__product-mandel {
   align-self: flex-start;
@@ -357,7 +357,7 @@
 
 .products__product-mandel::after {
   content: "";
-  border-right: 1px solid #CCCCCC;
+  border-right: 1px solid #CCC;
   position: absolute;
   width: 280px;
   height: 130px;
@@ -369,7 +369,7 @@
   display: inline-block;
   right: 95px;
   bottom: 20px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -385,7 +385,7 @@
   display: inline-block;
   right: 75px;
   bottom: 20px;
-  background: #762E31;
+  background: #762e31;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -401,7 +401,7 @@
   display: inline-block;
   right: 55px;
   bottom: 20px;
-  background: #41479B;
+  background: #41479b;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -417,7 +417,7 @@
   display: inline-block;
   right: 35px;
   bottom: 20px;
-  background: #FDB431;
+  background: #fdb431;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -428,7 +428,7 @@
   transform: scale(1.2, 1.2);
 }
 
-/*cloud*/
+/* cloud */
 
 .products__product-cloud {
   align-self: flex-start;
@@ -443,7 +443,7 @@
   display: inline-block;
   right: 95px;
   bottom: 20px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -459,7 +459,7 @@
   display: inline-block;
   right: 75px;
   bottom: 20px;
-  background: #257DA9;
+  background: #257da9;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -475,7 +475,7 @@
   display: inline-block;
   right: 55px;
   bottom: 20px;
-  background: #B62E3C;
+  background: #b62e3c;
   border-radius: 50%;
   width: 9px;
   height: 9px;
@@ -491,7 +491,7 @@
   display: inline-block;
   right: 35px;
   bottom: 20px;
-  background: #FDB431;
+  background: #fdb431;
   border-radius: 50%;
   width: 9px;
   height: 9px;
