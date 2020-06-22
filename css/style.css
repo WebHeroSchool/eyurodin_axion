@@ -191,7 +191,7 @@
 
 .products__product-rasta::after {
   content: "";
-  border-right: 1px solid #CCC;
+  border-right: 1px solid #ccc;
   position: absolute;
   width: 280px;
   height: 130px;
