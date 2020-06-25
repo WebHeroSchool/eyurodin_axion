@@ -84,7 +84,7 @@
   .goto__shop {
     font-size: 12px;
   }
-  
+
   .goto__arrow {
     width: 45.51px;
     cursor: pointer;
@@ -350,7 +350,7 @@
   .product-camel_y {
     position: absolute;
     display: inline-block;
-    right: 0px;
+    right: 0;
     bottom: 25px;
     background: #fdb431;
     border-radius: 50%;
