@@ -3,6 +3,7 @@
     <head>
         <title>Axion</title>
         <meta http-equiv="content-language" content="en-us">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
         <link rel="shortcut icon" href="./logo.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/fonts.css">
         <link rel="stylesheet" href="./css/style.css">
@@ -10,29 +11,33 @@
 
     <body class="page">
         <header class="header page__header">
-            <a href="#main"><img src="images/axion-logo-1.png" alt="Axion" class="header__logo"></a>
+            <a href="#main"><img src="images/axion-logo-2.png" alt="Axion" class="header__logo-mobile"></a>
             <nav class="menu header__menu">
-              <div class="menu__left">
-                <a href="#shop" class="menu__link">Shop</a>
-                <a href="#news" class="menu__link">News</a>
-                <a href="#team" class="menu__link">Team</a>
-                <a href="#legacy" class="menu__link">Legacy</a>
-                <a href="#help" class="menu__link">Help</a>
-              </div>
-              <div class="menu__right">  
-                <div class="search menu__search">
-                    <img src="images/vector.png" alt="Search" class="search__img">
+                <div class="menu__left">
+                    <a href="#main"><img src="images/axion-logo-1.png" alt="Axion" class="header__logo"></a>
+                    <a href="#shop" class="menu__link">Shop</a>
+                    <a href="#news" class="menu__link">News</a>
+                    <a href="#team" class="menu__link">Team</a>
+                    <a href="#legacy" class="menu__link">Legacy</a>
+                    <a href="#help" class="menu__link">Help</a>
                 </div>
-                <a href="#sign" class="menu__link">Sign In</a>
-                <a href="#cart" class="menu__link">Cart <span class="cart__count">1</span></a>
-                <img src="images/usa.png" alt="usa" class="menu__flag">
-              </div>
+                <div class="menu__right">  
+                    <div class="search menu__search">
+                        <img src="images/vector.png" alt="Search" class="search__img">
+                    </div>
+                    <a href="#sign" class="menu__link">Sign In</a>
+                    <a href="#cart" class="menu__link">Cart <span class="cart__count">1</span></a>
+                    <img src="images/usa.png" alt="usa" class="menu__flag">
+                </div>
+                <div class="menu__burger"></div>
             </nav>
         </header>
         <main class="main page__main">
             <article class="new-collection">
                 <section class="goto new-collection__goto">
                   <img src="images/rob-potter.png" alt="rob-potter" class="goto__img">
+                  <img src="images/rob-potter-mini.png" alt="rob-potter" class="goto__img-mini">
+                  <img src="images/rob-potter-tablet.png" alt="rob-potter" class="goto__img-tablet">
                   <h2 class="goto__title">Legendary 
                         footwear 
                         reborn.
@@ -45,7 +50,7 @@
                     <div class="products__product-rasta">
                       <img src="images/product1.png" alt="Atlas Black/Rasta Axion" class="products__img">
                       <p class="products__name">Atlas Black/Rasta Axion</p>
-                      <p class="products__cost">$89.00</p>
+                      <span class="products__cost">$89.00</span>
                       <a href="#rasta_grey" alt="grey" class="product-rasta_g"></a>
                       <a href="#rasta_black" alt="black" class="product-rasta_b"></a>
                       <a href="#rasta_red" alt="red" class="product-rasta_r"></a>
@@ -87,7 +92,7 @@
                         And now we presentate a new footwear collection.
                     </p>
                     <p class="history__learn">Learn more</p>
-                    <img src="images/video.png" alt="video" class="history__img">
+                  <!--   <img src="images/video.png" alt="video" class="history__img"> -->
                 </section>
             </article>
             <section class="recent-stories">
