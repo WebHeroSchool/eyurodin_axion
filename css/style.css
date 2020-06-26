@@ -76,7 +76,6 @@
     text-transform: uppercase;
     text-align: justify;
     white-space: pre-line;
-    left: 30px;
     top: 40px;
     left: 20px;
     line-height: 1.2;
@@ -234,7 +233,6 @@
     width: 45.51px;
     cursor: pointer;
   }
-
 }
 
 /* tablet 768 */
@@ -247,7 +245,7 @@
   .page__header {
     max-width: 768px;
     height: 113.54px;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
   .header__logo-mobile {
@@ -929,15 +927,15 @@
  }
 
   .menu__left {
-   width: 40%;
-   left: 52px;
-   top: 33px;
- }
+    width: 40%;
+    left: 52px;
+    top: 33px;
+  }
 
   .menu__right {
-   right: 30px;
-   top: 33px;
- }
+    right: 30px;
+    top: 33px;
+  }
 
   .header__logo {
     width: 55px;
