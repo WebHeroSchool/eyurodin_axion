@@ -484,9 +484,11 @@
  }
 
   .menu__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
     text-decoration: none;
-    align-self: center;
     transition: text-decoration, font-size, letter-spacing 1s ease;
  }
 
@@ -520,7 +522,9 @@
  }
 
   .cart__count {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 9px;
     height: 9px;
     color: white;
@@ -572,6 +576,9 @@
   }
 
   .goto__shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 12px;
     top: 77px;
  }
@@ -940,13 +947,6 @@
 
   .search__img {
     width: 13.52px;
- }
-
-  .cart__count {
-    width: 14.92px;
-    height: 14.92px;
-    padding-top: 2px;
-    border: 2px solid #000;
  }
 
   .menu__flag {
